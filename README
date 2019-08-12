@@ -1,0 +1,15 @@
+
+These are some of my entries to the C64 "lines" size optimization contest.
+
+See:
+
+https://twitter.com/nurpax/status/1159192477598965766
+https://gist.github.com/nurpax/96285c08710387e73ea5e039e27980af
+
+Basically, create a C64 PRG file that draws a light blue cross on the screen
+with a black background and border in as few bytes as possible. Some terrible
+things where done to reduce the size of the binaries, please don't expect
+quality code here :)
+
+-Phil
+
