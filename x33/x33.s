@@ -5,7 +5,7 @@ lp = $D1 ; == $07C0, pointer to bottom line. Set by the kernal scroller
 
 ; Set the load address such that the last two bytes of the program
 ; are written to the BASIC warm start vector.
-* = $0304 - (end - scroll)
+* = $0302 - (end - scroll)
 
 scroll:	jsr $E8EA	; Kernal scroll up, also sets lp pointer to $07C0
 loop:	ldy ct		; Load the decrementing counter into Y (39 > -1)
