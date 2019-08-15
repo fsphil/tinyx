@@ -23,6 +23,6 @@ loop:	ldy ct		; Load the decrementing counter into Y (39 > -1)
 	bcc loop - 1	; Repeat. If ov didn't overflow, don't scroll
 			; The last byte of the JSR is also opcode INX
 	jmp scroll	; Repeat. If ov overflowed, scroll. The address of
-			; this JMP is at $0302, the BASIC warm start vector
+			; this JMP is at $0300, the BASIC warm start vector
 end:
 

@@ -20,6 +20,6 @@ p1:	sta $07C0	; Draw block (left > right line)
 	bmi *		; If it goes negative, we're finished
 	bcc loop	; Repeat. If ov didn't overflow, don't scroll
 	jmp scroll	; Repeat. If ov overflowed, scroll. The address of
-			; this JMP is at $0302, the BASIC warm start vector
+			; this JMP is at $0300, the BASIC warm start vector
 end:
 
